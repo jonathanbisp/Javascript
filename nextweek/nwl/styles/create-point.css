@@ -1,0 +1,44 @@
+#create-point-page {
+    width: 90%;
+    max-width: 1100px;
+
+    margin: 0 auto;
+}
+
+#create-point-page header {
+    margin-top: 48px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#create-point-page header a {
+    color: var(--title-color);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+#create-point-page header a span {
+    background-image: url('../assets/arrow-left.svg');
+
+    margin-right: 16px;
+    display: flex;
+
+    width: 20px;
+    height: 22px;
+}
+
+form {
+    background-color: white;
+
+    margin-top: 80px;
+    padding: 64px;
+
+    border-radius: 8px;
+
+    max-width: 730px;
+
+    box-sizing: border-box;
+}

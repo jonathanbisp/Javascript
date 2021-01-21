@@ -1,0 +1,10 @@
+API routes:
+METHOD: POST
+/pais Cadastro de Paises: nome presidente população url de uma foto do país
+/estado Cadastro de Estados: nome governador população url de uma foto da cidade
+/cidade Cadastro de Cidades: nome prefeito população url de uma foto da cidade
+
+METHOD: GET
+/pais Obtem todos os Paises: nome presidente população url de uma foto do país
+/estado Obtem todos os Estados de um Pais: nome governador população url de uma foto da cidade
+/cidade Obtem todas as Cidades de um Estado: nome prefeito população url de uma foto da cidade
